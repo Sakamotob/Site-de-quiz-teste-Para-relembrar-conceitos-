@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+    <html>  <!--estrutura padrão do HTML-->
+        <head>
+            <!--aqui não está incluso a linguá da página-->
+            <title>QUIZ TREINO!</title> <!--muda o nome da página na barra-->
+            <meta name="description" content="Um quiz legal"> <!--meta dados da página-->
+            <link rel="stylesheet" href="style.css">
+        </head>   
+        <body> 
+            <header> 
+                <h1>QUIZ PARA TESTAR SEUS CONHECIMENTOS!</h1>
+                <p>BEM-VINDO AO QUIZ</p> 
+            </header> 
+                <main> 
+                    <section> 
+                        <h2>Sobre esse quiz:</h2>
+                        <p>Quiz criado para práticar <abbr title="HyperText Markup Language">HTML</abbr> e CSS, parar relembrar conceitos para meu próximo projeto que<br> será uma tela de login incluindo o front e o backend juntos!!!</p>
+                        <p>ENTÃO SEJAM BEM-VINDOS AO MEU QUIZ! </p>
+                        <h2>VAMOS COMEÇAR O QUIZ!!!</h2>
+                    </section> 
+                    <section> 
+                        <h2>1.Qual linguagem é usada para estruturar páginas web?</h2>
+                        <form>
+                            <input type="radio" value="Python" name="pergunta1" id="p1a">
+                            <label for="p1a">Python</label><br> 
+                            <input type="radio" value="HTML" id="p2b" name="pergunta1"> 
+                            <label for="p2b">HTML</label><br>
+                            <input type="radio" value="CSS" id="p3c" name="pergunta1"> 
+                            <label for="p3c">CSS</label><br>
+                    </form>
+                </section>
+                <section>
+                    <h2>2.Na url: https:www.google.com p techo google.com é o ____</h2>   
+                        <form>
+                            <input type="text" id="p2" name="pergunta2" placeholder=" Digite sua resposta...">
+                        </form>
+                </section> 
+                <section>
+                    <h2>3.Escreva um exemplo de senha forte </h2> 
+                        <form >
+                            <input type="password" id="p3" name="pergunta3" placeholder="Digite uma senha...">
+                        </form>
+                </section>
+                <section>
+                    <h2>4.Em que ano o HTML lançou sua primeira versão?</h2>
+                        <form>
+                            <input type="date" name="perguntar4" id="p4">
+                        </form>
+                </section>
+                <section>
+                    <h2> 5.Quais dessas tecnologias são consideradas linguagens de programação</h2>
+                        <form>
+                            <input type="checkbox" name="pergunta5" id="p5a" value="HTML">
+                            <label for="p5a">HTML</label>
+                            <input type="checkbox" name="pergunta5" id="p5b" value="JAVA">
+                            <label for="p5a">JAVA</label>
+                            <input type="checkbox" name="pergunta5" id="p5c" value="Javascript">
+                            <label for="p5c">Javascript</label>
+                            <input type="checkbox" name="pergunta5" id="p5c" value="CSS">
+                            <label for="p5c">CSS</label>
+                        </form>
+                </section>
+                <section>
+                    <h2>6.Faça um upload de arquivo que contenha HTML</h2>
+                        <form>
+                            <input type="file" name="pergunta6" id="p6">
+                        </form>
+                </section>
+                <section>
+                    <h2>7.Selecione o atributo do input que define o seu tipo</h2>
+                        <form>
+                            <select name="pergunta7" id="p7">
+                                <option value="id">id</option>
+                                <option value="type">type</option>
+                                <option value="placeholder">placeholder</option>
+                            </select>
+                        </form>
+                </section>
+                <section>
+                    <h2>8.Qual linguagem de prog é representada pelo logotipo abixo?</h2> 
+                        <figure> <!--iamgens no HTML-->
+                            <img src="https://education.oracle.com/file/general/p-80-java.png" alt="logotipo de um linguagem de prog">
+                            <figcaption>Figura 1: Logotipo de uma linguagem de programação</figcaption>
+                        </figure>
+                        <input type="text" id="p8" name="pergunta8" placeholder="Digite sua resposta...">
+                </section>   
+                <section>
+                    <h2><strong>Tabela de Pontuação</strong></h2>
+                    <table border="1"><!--chamando a tabela!-->
+                        <thead>
+                            <tr>
+                                <th>Pontuação</th>
+                                <th>Avaliação</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tbody>
+                            <tr>
+                                <td>0-2</td>
+                                <td>Não desista! Cada tentativa é uma oportunidade de aprender mais</td>
+                                </tr>
+                                <tr>
+                                    <td>3-4</td>
+                                    <td>ESTUDA MAIS MALUCO!!!</td>
+                                </tr>
+                                <tr>
+                                    <td>5-7</td>
+                                    <td>Está no caminho certo!</td>
+                                </tr>
+                                <tr>
+                                    <td>7-8</td>
+                                    <td>PERFEITO!!!</td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="2">BOA SORTE NA PRÓXIMA</td>
+                                </tr>
+                            </tfoot>
+                    </table><!--fim da tabela-->
+                </section>   
+                <section>
+                    <h2>Verifique suas respostas</h2>
+                    <details>
+                        <summary> Clique aqui para ver as respostas</summary> <!--esconder uma lista-->
+                        <ol><!--chamdo da lista-->
+                            <li>HTML</li>
+                            <li>Domínio</li>
+                            <Li>AB@#122!!Kaomsdk</Li>
+                            <Li>1991</Li>
+                            <Li>Javascript, Java</Li>
+                            <li>Arquivo html</li>
+                            <li>type</li>
+                            <li>Java</li>
+                        </ol><!--ol é um tipo de lista-->
+                    </details>
+                </section>
+                <section>
+                    <h2>nós de seu feedback</h2>
+                        <form>
+                            <fieldset>
+                                <legend> Informações de contato</legend>
+                                <label for="name">Nome:</label>
+                                <input type="text" name="name" id="name"><br>
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email"><br>
+                                <label for="Cometarios">Cometarios:</label><br>
+                               <textarea name="Cometarios" id="Cometarios" rows="4" cols="50" placeholder="Digite aqui...">
+                               </textarea><br>
+                               <button onclick="alert('FEEDBACK ENVIADO')">Envie o feedback</button>
+                               </fieldset>
+                        </form>
+                </section>
+                </main>
+            <footer>
+                <p class="paragrafo-footer">&copy; Esse quiz tem todos os direitos reservados a SAKAMOTOb</p> <!-- 'CLASS' comando do CSS serve para nomear classes parar estilizar no CSS-->
+                <p class="paragrafo-footer">Para conhecer Sakamotob <a href="sobremim.html" target="_blank">clique aqui</a></p>
+            </footer> 
+        </body>
+    </html>
