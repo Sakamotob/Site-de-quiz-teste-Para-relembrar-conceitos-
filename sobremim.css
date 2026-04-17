@@ -1,0 +1,49 @@
+* { 
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box; /* Altera apenas o tamnho do botão por exemplo*/
+}
+
+body {
+    background-color: #F4F0EA;
+    color: #798252; /* trocar cor das letras */
+    font-family: "Cabin", sans-serif;      
+    font-weight: 400;
+}
+
+header {
+    background-color: #331F19;
+    padding: 2rem;
+    color: #F4F0EA;
+    text-align: center;
+}
+    
+img {
+    border-radius: 100px;
+    width: 15rem;
+   
+}
+
+.container-imagens {
+  display: flex; /* Ativa o Flexbox */
+  gap: 15px; /* Espaço entre as imagens */
+  justify-content: left; 
+}
+
+.container-imagens img {
+  max-width: 100%; /* Ajuste responsivo */
+  height: 5rem;
+  border-radius: 1px;
+  width: 5rem;
+
+}
+
+.paragrafo-footer {
+   color:#331F19
+
+}
+
+footer a {
+    text-decoration: none;
+    color: #331F19;
+}
